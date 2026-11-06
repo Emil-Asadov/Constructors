@@ -31,6 +31,7 @@ public class User {
 
     public String getFullName() {
         fullName = new StringBuilder(surname).append((char) 32).append(name).toString();
+
         return fullName;
     }
 }
